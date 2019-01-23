@@ -1,0 +1,25 @@
+
+body {
+    background: url("../images/documents.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+.icons {
+    width: 5vw;
+    height: 5vw;
+    margin: 20% 5%;
+    -webkit-filter: grayscale(40%);
+    filter: grayscale(40%);
+    padding: 5%;
+}
+
+.icons:hover {
+    background: rgba(85, 62, 62, 0.3);
+    border-radius: 5%;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    cursor: pointer;
+}

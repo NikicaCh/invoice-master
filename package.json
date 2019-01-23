@@ -2,10 +2,17 @@
   "name": "invoice-master",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nikica Maksimovski",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.6",
+    "node": "^11.7.0",
+    "pug": "^2.0.3"
+  }
 }
